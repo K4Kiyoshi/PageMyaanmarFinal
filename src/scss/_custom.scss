@@ -1,0 +1,312 @@
+// Here you can add other styles
+*{
+    font-family: Helvetica;
+}
+.button{
+    background-color: rgb(77, 158, 185);
+    border: none;
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.button:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+.searchStyle{
+    display: flex;
+}
+.searchBtn{
+    border: none;
+    background-color: rgb(77, 158, 185);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.searchBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+
+li{
+    list-style-type: none;
+}
+.detailStyle{
+    display: flex;
+    flex-direction: column;
+}
+.wholePageBg{
+    background-color: rgb(240, 255, 174);
+    font-family: Helvetica;
+}
+.resetBtn{
+    border: none;
+    background-color: rgb(77, 158, 185);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+
+}
+.resetBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+.StudentFormStyle{
+    display: flex;
+    justify-content: space-around;
+}
+.StudentAddBtn{
+    border: none;
+    background-color: rgb(39, 98, 152);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    color: #fff;
+}
+.StudentAddBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+.StudentTableFormStyle{
+    background-color: rgb(252, 232, 215);
+}
+.detailBtn{
+    top: 0;
+    position: relative;
+    transition: top ease 0.5s;
+    cursor: pointer;
+}
+.detailBtn:hover{
+    top: -10px;
+}
+.resetClickBtn{
+    border: none;
+    background-color: rgb(39, 98, 152);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    color: #fff;
+}
+.resetClickBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+
+.success {
+    color: white;
+    background-color: #6edabc;
+    border: 1px solid #6edabc !important;
+    border-radius: 10px;
+  }
+  .error {
+    color: white;
+    background-color: #f36d64;
+    border: 1px solid #f78c84 !important;
+    border-radius: 10px;
+  }
+
+  .red-card{
+    width:"100px";
+    background-color : #f36d64;
+  }
+
+
+  .ok-btn {
+    background-image: linear-gradient(to bottom, #30b32c, #30b32c);
+    color: white;
+    // border-color: #E7E5E5;
+    border: none;
+    border-radius: 6px;
+    min-width: 3rem;
+    height: 2.2rem;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    transition: all 0.1s linear;
+  }
+  .ok-btn:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    transition: all 0.1s linear;
+    color: white !important;
+  }
+  .cancel-btn {
+    background-image: linear-gradient(to bottom, #f62b14, #f62b14);
+    color: white;
+    // border-color: #E7E5E5;
+    border: none;
+    border-radius: 6px;
+    min-width: 3rem;
+    height: 2.2rem;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    transition: all 0.1s linear;
+  }
+  .cancel-btn:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    transition: all 0.1s linear;
+    color: white !important;
+  }
+
+
+  .login-bg{
+    background-image: url(/image/side_bar_profile.jpg);
+    background-size: cover;
+  }
+
+  
+.login-bg-mobile {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(#700b5f, rgb(255, 255, 255));
+  }
+
+.Ccard-design-start {
+    background-image: linear-gradient(#0b3570, rgb(255, 255, 255));
+}
+
+.Ccard-design-end {
+    background-image: linear-gradient( rgb(255, 255, 255),#0b3570);
+}
+
+.create-btn {
+    background: #4e57aa;
+    border-radius: 0.5rem;
+    height: 2.8rem;
+    color: #fff;
+    height: 45px;
+    width: 90px;
+    height: 38px;
+    margin-right:10px
+  }
+  .create-btn:hover {
+    color: #fff;
+    background: #8994f3;;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-5px);
+    transition: all 0.2s ease-out;
+  }
+
+  
+  .input-field{
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    background-color: #7f95b4 !important;
+    border-radius: 2px;
+  }
+  .input-field:hover{
+    border-bottom: 1px solid ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    background-color: #e6eaf0 !important;
+    border-radius: 2px;
+  }
+  .input-field:focus{
+    border: 1px solid #c4cce3;
+    height: 40px;
+    background-color: white !important;
+    border-radius: 2px;
+  }
+  .input-field:focus::-webkit-input-placeholder{
+    opacity: 0.5;
+  }
+
+  .MuiInputBase-input{
+  margin-top: 4px !important;
+  margin-left: 15px !important;
+  }
+
+  .input-field-blue-background{
+    border-bottom: 1px solid ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    background-color: white !important;
+    border-radius: 2px;
+  }
+  .input-field-blue-background:hover{
+    border-bottom: 1px solid ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    background-color: #e6eaf0 !important;
+    border-radius: 2px;
+  }
+  .input-field-blue-background:focus{
+    border: 1px solid #c4cce3;
+    height: 40px;
+    background-color: white !important;
+    border-radius: 2px;
+  }
+  .input-field-blue-background:focus::-webkit-input-placeholder{
+    opacity: 0.5;
+  }
+
+// for loading
+#overlay {
+  z-index: 2000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #adb5bd;
+  opacity: 0.5;
+}
+#overlay div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.shapeshifter {
+  animation-duration: 800ms; // 800 ms
+  animation-timing-function: steps(60);
+  width: 140px !important;
+  height: 140px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shapeshifter.play {
+  animation-name: play60;
+  animation-iteration-count: infinite;
+}
