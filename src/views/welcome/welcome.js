@@ -18,7 +18,7 @@ const Welcome = () => {
   const [files, setFiles] = useState([]);
   const [imageData, setImageData] = useState('');
   const [loading, setLoading] = useState(false); // For Loading
-
+  const [loading2, setLoading2] = useState(false); // For Loading
   const handleDrop = (acceptedFiles) => {
     setFiles(acceptedFiles);
   };
